@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Page4048 = () => {
   return (
     <div className="relative py-16 px-4 w-full min-h-screen bg-gray-50">
       <div className="flex flex-col items-center">
-        {/* :TITLE */}
         <div className="text-center space-y-5">
           <p className="text-6xl sm:text-7xl text-purple-500 font-bold tracking-wide">
             404
@@ -18,23 +18,21 @@ const Page4048 = () => {
           </p>
         </div>
 
-        {/* :OPTION LINKS */}
         <div className="mt-8 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="px-5 py-2.5 rounded border border-transparent bg-purple-600 text-center text-base text-white font-medium hover:bg-purple-700"
           >
             Get back to Homepage
-          </a>
-          <a
-            href="/foods"
+          </Link>
+          <Link
+            to="/foods"
             className="px-5 py-2.5 rounded border-2 border-purple-400 bg-transparent text-center text-base text-purple-400 font-medium hover:border-purple-500 hover:text-purple-500"
           >
             ALL FOODS
-          </a>
+          </Link>
         </div>
 
-        {/* :ILLUSTRATION */}
         <img
           src="https://fancytailwind.com/static/under_construction-503cab99df4458de6d2801e7ee4fa400.svg"
           alt=""
