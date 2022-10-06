@@ -55,10 +55,6 @@ export const router = createBrowserRouter([
         },
         element: <Reviews></Reviews>,
       },
-      {
-        path: "*",
-        element: <Page4048></Page4048>,
-      },
     ],
   },
   {
