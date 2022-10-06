@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: "/*",
-    element: <h1>404 not working</h1>,
-  }
+    path: "*",
+    element: <Page4048></Page4048>,
+  },
 ]);
